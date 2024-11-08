@@ -108,7 +108,7 @@ namespace GithubActionsLab
         {
             Assert.AreEqual(1, Program.Power("1", "2"));
             Assert.AreEqual(9, Program.Power("3", "2"));
-            Assert.AreEqual(3, Program.Power("6", "2")); //Intential fail
+            Assert.AreEqual(36, Program.Power("6", "2")); 
         }
 
         [Test]
